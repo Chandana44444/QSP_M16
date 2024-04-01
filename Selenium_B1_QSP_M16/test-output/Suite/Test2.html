@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>TestNG:  Test2</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test2</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Feb 20 08:22:08 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>13 seconds (13099 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='parallel_execution.TC_05.launch_Meesho()'><b>launch_Meesho</b><br>Test class: parallel_execution.TC_05<br/>
+<a href="#Output-368157429" onClick='toggleBox("Output-368157429", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-368157429" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-368157429">
+From Meesho<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>parallel_execution.TC_05@6ed3ccb2</td></tr>
+<tr>
+<td title='parallel_execution.TC_04.launch_Amazon()'><b>launch_Amazon</b><br>Test class: parallel_execution.TC_04<br/>
+<a href="#Output-1183042042" onClick='toggleBox("Output-1183042042", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1183042042" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1183042042">
+From Amazon<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>parallel_execution.TC_04@1a677343</td></tr>
+<tr>
+<td title='parallel_execution.TC_09.launch_Mamaearth()'><b>launch_Mamaearth</b><br>Test class: parallel_execution.TC_09<br/>
+<a href="#Output-1223418340" onClick='toggleBox("Output-1223418340", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1223418340" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1223418340">
+From MamaEarth<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>parallel_execution.TC_09@15de0b3c</td></tr>
+<tr>
+<td title='parallel_execution.TC_08.launch_Wow()'><b>launch_Wow</b><br>Test class: parallel_execution.TC_08<br/>
+<a href="#Output-489953803" onClick='toggleBox("Output-489953803", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-489953803" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-489953803">
+From Wow<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>parallel_execution.TC_08@489115ef</td></tr>
+</table><p>
+</body>
+</html>
