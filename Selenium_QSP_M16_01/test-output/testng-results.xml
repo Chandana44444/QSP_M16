@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[test script_01]]>
+    </line>
+    <line>
+      <![CDATA[Execution Success]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-02T13:54:51 IST" name="Default suite" finished-at="2024-03-02T13:54:58 IST" duration-ms="7045">
+    <groups>
+    </groups>
+    <test started-at="2024-03-02T13:54:51 IST" name="Default test" finished-at="2024-03-02T13:54:58 IST" duration-ms="7045">
+      <class name="itestlistener.TestScript_01">
+        <test-method is-config="true" signature="open_browser()[pri:0, instance:itestlistener.TestScript_01@206a70ef]" started-at="2024-03-02T13:54:51 IST" name="open_browser" finished-at="2024-03-02T13:54:57 IST" duration-ms="6210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_browser -->
+        <test-method signature="scrip_01()[pri:0, instance:itestlistener.TestScript_01@206a70ef]" started-at="2024-03-02T13:54:57 IST" name="scrip_01" finished-at="2024-03-02T13:54:58 IST" duration-ms="615" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution Started]]>
+            </line>
+            <line>
+              <![CDATA[test script_01]]>
+            </line>
+            <line>
+              <![CDATA[Execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scrip_01 -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:itestlistener.TestScript_01@206a70ef]" started-at="2024-03-02T13:54:58 IST" name="close_browser" finished-at="2024-03-02T13:54:58 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- itestlistener.TestScript_01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
